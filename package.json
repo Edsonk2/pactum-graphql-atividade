@@ -1,16 +1,24 @@
 {
   "name": "pactum-graphql",
   "version": "1.0.0",
-  "description": "Testes em GraphQL com Pactum",
+  "description": "Testes de API GraphQL com PactumJS e Jest",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/**/*.test.js"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "ernestosbarbosa",
+  "keywords": [
+    "qa",
+    "testes",
+    "api",
+    "graphql",
+    "pactumjs",
+    "jest"
+  ],
+  "author": "Edson Oliveira",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^10.3.0",
+    "jest": "^30.5.1",
+    "jest-html-reporters": "^3.1.7",
     "pactum": "^3.6.0"
   },
   "dependencies": {
